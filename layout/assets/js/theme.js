@@ -157,7 +157,7 @@ jQuery(document).ready(function () {
             topProductsCarousel.owlCarousel({
                 autoplay: false,
                 loop: true,
-                margin: 30,
+                margin: 0,
                 dots: false,
                 nav: true,
                 navText: [
@@ -170,7 +170,6 @@ jQuery(document).ready(function () {
                     768: {items: 3},
                     991: {items: 4},
                     1024: {items: 5},
-                    1280: {items: 6}
                 }
             });
         }
