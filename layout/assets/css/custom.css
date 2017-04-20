@@ -304,6 +304,15 @@ section.carrossel-ofertas .owl-theme .owl-controls .owl-nav .owl-next {
     background-color: #fff;
 }
 
+.category .sub-brand-list .sup-brand-item:hover {
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+
+.category .sub-brand-list .sup-brand-item a {
+    padding: 0;
+}
+
 .sub-brand-list .sup-brand-item img {
     max-width: 80px;
     max-height: 40px;
@@ -366,11 +375,37 @@ section.carrossel-ofertas .owl-theme .owl-controls .owl-nav .owl-next {
 }
 
 .owl-theme .owl-controls .owl-nav .owl-prev {
-    left: 30px;
+    left: 0px;
+    width: 30px;
+    height: 100px;
+    border: none;
+    background-color: #e8e8e8;
+    opacity: 0.4;
+}
+
+.owl-theme .owl-controls .owl-nav .owl-prev:hover {
+    background-color: #e8e8e8;
+    opacity: 0.8;
+}
+
+.owl-theme .owl-controls .owl-nav .owl-prev i,
+.owl-theme .owl-controls .owl-nav .owl-next i {
+    margin-top: 32px;
+    color: #666;
 }
 
 .owl-theme .owl-controls .owl-nav .owl-next {
-    right: 30px;
+    right: 0px;
+    width: 30px;
+    height: 100px;
+    border: none;
+    background-color: #e8e8e8;
+    opacity: 0.4;
+}
+
+.owl-theme .owl-controls .owl-nav .owl-next:hover {
+    background-color: #e8e8e8;
+    opacity: 0.8;
 }
 
 .owl-theme .owl-controls .owl-dots {
@@ -386,6 +421,29 @@ section.carrossel-ofertas .owl-theme .owl-controls .owl-nav .owl-next {
 .owl-theme .owl-controls .owl-dots .owl-dot:hover span,
 .owl-theme .owl-controls .owl-dots .owl-dot.active span {
     background-color: #232323;
+}
+
+.header .header-search button.dropdown-toggle {
+    background-color: transparent!important;
+}
+
+.footer {
+    background-color: #fff;
+}
+
+.footer .newsletter input[type='text'] {
+    border: 1px solid #ccc;
+}
+
+.footer .newsletter .input-group-btn button {
+    font-size: 12px;
+    height: 40px;
+    border: none;
+}
+
+.footer .newsletter .input-group-btn button:hover {
+    background-color: #dc143c;
+    opacity: 0.8;
 }
 
 @media (max-width: 639px) {

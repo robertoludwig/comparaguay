@@ -132,7 +132,7 @@ jQuery(document).ready(function () {
         if (mainSlider.length) {
             mainSlider.owlCarousel({
                 //items: 1,
-                autoplay: false,
+                autoplay: true,
                 autoplayHoverPause: true,
                 loop: true,
                 margin: 0,
@@ -262,7 +262,10 @@ jQuery(document).ready(function () {
         // Images carousel
         if (imageCarousel.length) {
             imageCarousel.owlCarousel({
-                autoplay: false,
+                animateOut: 'fadeOut',
+                autoplay: true,
+                autoplayTimeout:2500,
+                autoplayHoverPause:true,
                 loop: true,
                 margin: 0,
                 dots: true,
@@ -404,7 +407,7 @@ jQuery(window).load(function () {
         // must initialized after counters
         if (hotDealsCarousel.length) {
             hotDealsCarousel.owlCarousel({
-                autoplay: false,
+                autoplay: true,
                 loop: true,
                 margin: 30,
                 dots: true,
